@@ -15,7 +15,7 @@
   height: 840px;
   width: 600px;
   margin: 0 auto; 
-  background-image: url(frame.png); 
+  background-image: url(Files/frame.png); 
   background-size: cover; 
   position: relative;
   text-align: center;
@@ -67,7 +67,7 @@ p {
   flex: 0 0 auto; /* Prevent flex-grow and flex-shrink, set to initial width */
   height: 500px;
   width: 355px;
-  background-image: url(frame.png);
+  background-image: url(Files/frame.png);
   background-size: cover;
   text-align: center;
 }
