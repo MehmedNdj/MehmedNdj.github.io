@@ -1,6 +1,6 @@
 /* Icon */
 .icon {
-    width: 50px;
+    width: 38px;
     height: 70px;
     margin: 40px auto 0; 
   }
@@ -17,7 +17,7 @@
     margin: 0 auto; 
     background-image: url(Files/frame.png); 
     background-size: cover; 
-    position: relative;
+    position: cover;
     text-align: center;
     flex: 1; 
   }
@@ -36,14 +36,14 @@
   .footer {
     width: 100%;
     height: 60px;
-    text-align: center
+    text-align: center;
   }
   
   body {
     background-color: #DAC0A3;
   }
   
-  hr {
+  .line {
     height: 15px;
     background-color:#000000;
   }
@@ -60,7 +60,17 @@
     height: 75px;
     width: 75px;
     border-radius: 50%; 
-    margin-top: 25px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+  }
+
+  #info{
+    margin-bottom: 30px;
+    width: 450px;
+    margin-left: 80px;
+    text-align: justify;
+    
   }
   
   .tech , .exp {
@@ -103,11 +113,23 @@
     margin-top: 42px;
   }
   
-  h2 {
+  h3 {
     padding-top: 20px;
   }
+
+  h2{
+    margin-bottom: 50px;
+  }
   
-  #gh , #ln , #ins{
+  #gh , #ln , #ins , #ph , #gm{
     margin: 10px;
+  }
+
+  #text{
+    margin-left: 10px;
+  }
+
+  .exp2{
+    text-align: justify;
   }
   
